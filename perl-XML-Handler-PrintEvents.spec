@@ -5,8 +5,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	XML
 %define	pnam	Handler-PrintEvents
-Summary:	XML::Handler-PrintEvents - 
-Summary(pl):	XML::Handler-PrintEvents - 
+Summary:	XML::Handler::PrintEvents - prints PerlSAX events (for debugging)
+Summary(pl):	XML::Handler::PrintEvents - wypisywanie zdarzeñ PerlSAX (dla odpuskwiania)
 Name:		perl-XML-Handler-PrintEvents
 Version:	0.01
 Release:	1
@@ -50,8 +50,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes README
-%dir %{perl_vendorlib}/XML/Handler/PrintEvents
 %{perl_vendorlib}/XML/Handler/PrintEvents.pm
-%{perl_vendorlib}/XML/Handler/PrintEvents/*.pm
-%{perl_vendorlib}/XML/Handler/*
 %{_mandir}/man3/*
