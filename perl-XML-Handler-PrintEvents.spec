@@ -3,8 +3,8 @@
 %bcond_without tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	XML
-%define	pnam	Handler-PrintEvents
+%define		pdir	XML
+%define		pnam	Handler-PrintEvents
 Summary:	XML::Handler::PrintEvents - prints PerlSAX events (for debugging)
 Summary(pl):	XML::Handler::PrintEvents - wypisywanie zdarzeñ PerlSAX (dla odpluskwiania)
 Name:		perl-XML-Handler-PrintEvents
