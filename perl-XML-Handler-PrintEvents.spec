@@ -6,7 +6,7 @@
 %define		pdir	XML
 %define		pnam	Handler-PrintEvents
 Summary:	XML::Handler::PrintEvents - prints PerlSAX events (for debugging)
-Summary(pl):	XML::Handler::PrintEvents - wypisywanie zdarzeÒ PerlSAX (dla odpluskwiania)
+Summary(pl.UTF-8):   XML::Handler::PrintEvents - wypisywanie zdarze≈Ñ PerlSAX (dla odpluskwiania)
 Name:		perl-XML-Handler-PrintEvents
 Version:	0.01
 Release:	1
@@ -29,10 +29,10 @@ This PerlSAX handler prints the PerlSAX events it receives to STDOUT.
 It can be useful when debugging PerlSAX filters. It supports all
 PerlSAX handler including ignorable_whitespace.
 
-%description -l pl
-Ten modu≥ obs≥ugi PerlSAX wypisuje otrzymywane zdarzenia PerlSAX na
-standardowe wyj∂cie. Moøe to byÊ przydatne przy odpluskwianiu filtrÛw
-PerlSAX. Obs≥uguje wszystkie funkcje obs≥ugi PerlSAX w≥±cznie z
+%description -l pl.UTF-8
+Ten modu≈Ç obs≈Çugi PerlSAX wypisuje otrzymywane zdarzenia PerlSAX na
+standardowe wyj≈õcie. Mo≈ºe to byƒá przydatne przy odpluskwianiu filtr√≥w
+PerlSAX. Obs≈Çuguje wszystkie funkcje obs≈Çugi PerlSAX w≈ÇƒÖcznie z
 ignorable_whitespace.
 
 %prep
