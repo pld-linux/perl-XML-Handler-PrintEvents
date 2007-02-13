@@ -6,7 +6,7 @@
 %define		pdir	XML
 %define		pnam	Handler-PrintEvents
 Summary:	XML::Handler::PrintEvents - prints PerlSAX events (for debugging)
-Summary(pl.UTF-8):   XML::Handler::PrintEvents - wypisywanie zdarzeń PerlSAX (dla odpluskwiania)
+Summary(pl.UTF-8):	XML::Handler::PrintEvents - wypisywanie zdarzeń PerlSAX (dla odpluskwiania)
 Name:		perl-XML-Handler-PrintEvents
 Version:	0.01
 Release:	1
