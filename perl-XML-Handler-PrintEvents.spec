@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	XML
 %define		pnam	Handler-PrintEvents
+%include	/usr/lib/rpm/macros.perl
 Summary:	XML::Handler::PrintEvents - prints PerlSAX events (for debugging)
 Summary(pl.UTF-8):	XML::Handler::PrintEvents - wypisywanie zdarzeń PerlSAX (dla odpluskwiania)
 Name:		perl-XML-Handler-PrintEvents
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	bd3b3d840d98bca3e11f9dad34364da4
+URL:		http://search.cpan.org/dist/XML-Handler-PrintEvents/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
