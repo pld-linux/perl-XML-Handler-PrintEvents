@@ -4,7 +4,6 @@
 
 %define		pdir	XML
 %define		pnam	Handler-PrintEvents
-%include	/usr/lib/rpm/macros.perl
 Summary:	XML::Handler::PrintEvents - prints PerlSAX events (for debugging)
 Summary(pl.UTF-8):	XML::Handler::PrintEvents - wypisywanie zdarzeń PerlSAX (dla odpluskwiania)
 Name:		perl-XML-Handler-PrintEvents
